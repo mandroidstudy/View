@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--水平进度-->
+    <declare-styleable name="HProgressbar">
+        <attr name="reachHeight" format="dimension"/>
+        <attr name="reachColor" format="color"/>
+        <attr name="unReachHeight" format="dimension"/>
+        <attr name="unReachColor" format="color"/>
+        <attr name="pTextSize" format="dimension"/>
+        <attr name="pTextColor" format="color"/>
+        <attr name="textBothsidesOffset" format="dimension"/>
+    </declare-styleable>
+
+    <!--环形进度 -->
+    <declare-styleable name="CircleProgressbar">
+        <attr name="radius" format="dimension"/>
+        <attr name="cReachHeight" format="dimension"/>
+        <attr name="cReachColor" format="color"/>
+        <attr name="cUnReachHeight" format="dimension"/>
+        <attr name="cUnReachColor" format="color"/>
+        <attr name="cTextSize" format="dimension"/>
+        <attr name="cTextColor" format="color"/>
+    </declare-styleable>
+</resources>
